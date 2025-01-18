@@ -7,6 +7,11 @@ public class Calculator {
     public static int subtraction(int num1, int num2) {
         return num1 - num2;
 
+
+
+    public static int multiplication(int num1, int num2) {
+        return num1 * num2;
+
     }
 
     public static void main(String[] args) {
@@ -14,10 +19,14 @@ public class Calculator {
         int num2 = 5;
 
 
+
         System.out.println("Addition: " + addition(num1, num2));
 
 
         System.out.println("Subtraction: " + subtraction(num1, num2));
+
+
+        System.out.println("Multiplication: " + multiplication(num1, num2));
 
     }
 }
